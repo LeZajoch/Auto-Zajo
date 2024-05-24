@@ -5,24 +5,28 @@
     <title>Auto Zajo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="../img/logo.ico"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<!--navbar -->
 <nav class="nav nav-tabs justify-content-center navbar bg-dark">
-        <div class="container">
-        <a class="navbar-brand text-uppercase font-weight-bold text-warning"  href="index.html">
+    <div class="container">
+        <a class="navbar-brand text-uppercase font-weight-bold text-warning"  href="index.php">
             <img src="../img/logo.png" alt="Bootstrap" width="60" height="48" >
             Auto Zajo
         </a>
-            <div class=" gap-2  justify-content-md-end">
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='prodat.html'">Prodat</button>
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='koupit.html'">Koupit</button>
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='nabidka.html'">Akční Nabídka</button>
+        <div class=" gap-2  justify-content-md-end">
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='prodat.php'">Prodat</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='koupit.php'">Koupit</button>
+            <button class="btn active btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='nabidka.php'">Akční Nabídka</button>
             <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="scrollToFooter()">Kontakty</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='../php/loginPage.php'">Přihlášení</button>
         </div>
     </div>
 </nav>
+
+
+
+
+
 
 <footer class="bg-dark text-white pt-5 pb-4" id="contact">
     <div class="container">
@@ -66,7 +70,7 @@
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
                 <p>Copyright ©2024 All rights reserved by:
-                    <a href="index.html" style="text-decoration: none">
+                    <a href="index.php" style="text-decoration: none">
                         <strong class="text-warning">Auto Zajo</strong>
                     </a></p>
             </div>
@@ -95,12 +99,12 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                        <a href="https://www.x.com/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                            </svg>
-                        </a>
-                    </li>
+                            <a href="https://www.x.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
