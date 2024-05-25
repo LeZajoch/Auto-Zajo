@@ -80,11 +80,6 @@
 //}
 //
 
-
-
-
-
-
 session_start();
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
@@ -112,9 +107,9 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
         if ($user && password_verify($passwordForm, $user['Password'])) {
             $_SESSION['user'] = $user['Username'];
-            header("Location: index.php"); // Redirect to a welcome page or dashboard
+            header("Location: index.php");
         } else {
-            header("Location: index.php?error=Invalid username or password.");
+           header("Location: loginPage.php?error=Invalid username or password.");
         }
 
         sqlsrv_free_stmt($stmt);
@@ -132,3 +127,4 @@ function validate($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
+

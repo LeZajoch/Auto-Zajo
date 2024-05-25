@@ -5,7 +5,9 @@
     <title>Auto Zajo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="../img/logo.ico"/>
+    <link rel="stylesheet" href="../style/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 <!--navbar -->
@@ -26,6 +28,74 @@
     </div>
 </nav>
 
+<!--main content-->
+
+
+<!--reasons why-->
+<div class="container-fluid bg-dark text-warning py-4">
+    <h1 class="text-center mb-4">Proč právě Auto Zajo?</h1>
+    <div class="row text-center">
+        <div class="col-md">
+            <img src="../img/png icons/icon-vyber.png" alt="Výběr vozů" class="mb-2">
+            <p>Největší výběr vozů na jedné ploše</p>
+        </div>
+        <div class="col-md">
+            <img src="../img/png icons/icon-km.png" alt="Najeté kilometry" class="mb-2">
+            <p>Garance najetých kilometrů</p>
+        </div>
+        <div class="col-md">
+            <img src="../img/png icons/icon-stav.png" alt="Technický stav" class="mb-2">
+            <p>Prověřen technický stav vozů</p>
+        </div>
+        <div class="col-md">
+            <img src="../img/png icons/icon-puvod.png" alt="Původ vozidel" class="mb-2">
+            <p>Garance původu vozidel</p>
+        </div>
+        <div class="col-md">
+            <img src="../img/png icons/icon-zaruka.png" alt="Záruka" class="mb-2">
+            <p>Prodloužená záruka vozů na 3 roky</p>
+        </div>
+    </div>
+</div>
+
+<!--reviews-->
+<div class="container my-5 background-color ">
+    <div class="text-center mb-5">
+        <h2>Hodnocení zákazníků</h2>
+        <p>Není pro nás nic důležitějšího než spokojení zákazníci</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="review-card">
+                <p>Velký výběr vozů, ceny jakž takž příjemné prostředí, ochota poradit.</p>
+                <div class="star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="customer-name">Jiří Vala</div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="review-card">
+                <p>Pěkné prostory výkupního centra, sympatičtí zaměstnanci, dali mi férovou cenu za auto a ještě mě odvezli zpátky do Prahy. Všechno běželo dobře, i když vše bylo trošku zdlouhavé.</p>
+                <div class="star-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="customer-name">Ronald Schubert</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
 <footer class="bg-dark text-white pt-5 pb-4" id="contact">
     <div class="container">
         <div class="row">
@@ -113,3 +183,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
+

@@ -1,1 +1,36 @@
 .error { color: red; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #005bab;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.container h1 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+.feature {
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.feature img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
