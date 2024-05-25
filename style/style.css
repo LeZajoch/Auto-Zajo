@@ -1,36 +1,70 @@
 .error { color: red; }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-.container {
-    background-color: #005bab;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-.container h1 {
-    margin: 0;
-    padding-bottom: 20px;
-}
-.features {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0 20px;
-}
-.feature {
-    flex: 1;
-    min-width: 150px;
-    max-width: 200px;
+/*.bg-warning { background-color: #adadad !important; }*/
+
+.review-card {
     padding: 20px;
-    text-align: center;
+    background-color: #212529;
+    color: #ffcf62;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 15px;
+
 }
-.feature img {
-    width: 50px;
-    height: auto;
-    margin-bottom: 10px;
+.star-rating {
+    color: #ffc107;
+}
+.customer-name {
+    font-weight: bold;
+    color: #ffc107;
+    margin-top: 10px;
+    text-align: right;
 }
 
+.carousel-item {
+    flex: 0 0 50%;
+    transition: transform 0.5s ease;
+}
+
+.review-card-text {
+    flex-grow: 1;
+}
+
+.review-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*login page*/
+
+body.loginPage {
+    background-color: #fffbc2;
+    color: #f8f9fa;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #212529;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+.form-container .form-control {
+    margin-bottom: 15px;
+}
+
+.form-container .error {
+    color: #dc3545; /* Danger color for error message */
+    margin-bottom: 15px;
+}
