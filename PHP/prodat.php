@@ -9,99 +9,24 @@
 <body>
 <nav class="nav nav-tabs justify-content-center navbar bg-dark">
     <div class="container">
-        <a class="navbar-brand text-uppercase font-weight-bold text-warning"  href="index.html">
+        <a class="navbar-brand text-uppercase font-weight-bold text-warning"  href="index.php">
             <img src="../img/logo.png" alt="Bootstrap" width="60" height="48" >
             Auto Zajo
         </a>
         <div class=" gap-2  justify-content-md-end">
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='prodat.html'">Prodat</button>
-            <button class="btn active btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='koupit.html'">Koupit</button>
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='nabidka.html'">Akční Nabídka</button>
+            <button class="btn active btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='prodat.php'">Prodat</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='koupit.php'">Koupit</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='nabidka.php'">Akční Nabídka</button>
             <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="scrollToFooter()">Kontakty</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='../php/loginPage.php'">Přihlášení</button>
         </div>
     </div>
 </nav>
 
-<h6 class="display-6">Speciální nabídka</h6>
-<div id="carouselIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="14" aria-label="Slide 15"></button>
-        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="../img/900417957_1_1024x768x95.webp" class="d-block w-100" alt="predek">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_2_1024x768x95.webp" class="d-block w-100" alt="sikmo">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_5_1600x1200x95.webp" class="d-block w-100" alt="zezadu">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_6_1024x768x95.webp" class="d-block w-100" alt="zezadu sikmo">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_7_1024x768x95.webp" class="d-block w-100" alt="zboku">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_9_1600x1200x95.webp" class="d-block w-100" alt="interier">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_11_1024x768x95.webp" class="d-block w-100" alt="predni sedacky">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_12_1024x768x95.webp" class="d-block w-100" alt="zadni sedacky">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_14_1024x768x95.webp" class="d-block w-100" alt="zadni2">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_15_1600x1200x95.webp" class="d-block w-100" alt="predni2">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_16_1024x768x95.webp" class="d-block w-100" alt="volant">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_17_1024x768x95.webp" class="d-block w-100" alt="budiky">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_18_1024x768x95.webp" class="d-block w-100" alt="radio">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_19_1600x1200x95.webp" class="d-block w-100" alt="okenka">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_63_1600x1200x95.webp" class="d-block w-100" alt="kufr">
-        </div>
-        <div class="carousel-item">
-            <img src="../img/900417957_66_1600x1200x95.webp" class="d-block w-100" alt="kolo">
-        </div>
 
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+
+
+
 
 <footer class="bg-dark text-white pt-5 pb-4" id="contact">
     <div class="container">
@@ -145,7 +70,7 @@
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
                 <p>Copyright ©2024 All rights reserved by:
-                    <a href="index.html" style="text-decoration: none">
+                    <a href="index.php" style="text-decoration: none">
                         <strong class="text-warning">Auto Zajo</strong>
                     </a></p>
             </div>

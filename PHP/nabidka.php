@@ -9,15 +9,16 @@
 <body>
 <nav class="nav nav-tabs justify-content-center navbar bg-dark">
     <div class="container">
-        <a class="navbar-brand text-uppercase font-weight-bold text-warning"  href="index.html">
+        <a class="navbar-brand text-uppercase font-weight-bold text-warning"  href="index.php">
             <img src="../img/logo.png" alt="Bootstrap" width="60" height="48" >
             Auto Zajo
         </a>
         <div class=" gap-2  justify-content-md-end">
-            <button class="btn active btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='prodat.html'">Prodat</button>
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='koupit.html'">Koupit</button>
-            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='nabidka.html'">Akční Nabídka</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='prodat.php'">Prodat</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='koupit.php'">Koupit</button>
+            <button class="btn active btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='nabidka.php'">Akční Nabídka</button>
             <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="scrollToFooter()">Kontakty</button>
+            <button class="btn btn-lg btn-outline-warning me-2" type="button" onclick="window.location.href='../php/loginPage.php'">Přihlášení</button>
         </div>
     </div>
 </nav>
@@ -69,7 +70,7 @@
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-8">
                 <p>Copyright ©2024 All rights reserved by:
-                    <a href="index.html" style="text-decoration: none">
+                    <a href="index.php" style="text-decoration: none">
                         <strong class="text-warning">Auto Zajo</strong>
                     </a></p>
             </div>
