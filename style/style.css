@@ -23,16 +23,13 @@
     margin-top: 10px;
     text-align: right;
 }
-
 .carousel-item {
     flex: 0 0 50%;
     transition: transform 0.5s ease;
 }
-
 .review-card-text {
     flex-grow: 1;
 }
-
 .review-footer {
     display: flex;
     justify-content: space-between;
@@ -40,12 +37,10 @@
 }
 
 /*login page*/
-
 body.loginPage {
     background-color: #fffbc2;
     color: #f8f9fa;
 }
-
 .form-container {
     max-width: 400px;
     margin: 50px auto;
@@ -54,17 +49,50 @@ body.loginPage {
     background-color: #212529;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .form-container h2 {
     margin-bottom: 20px;
     color: #212529;
 }
-
 .form-container .form-control {
     margin-bottom: 15px;
 }
-
 .form-container .error {
     color: #dc3545; /* Danger color for error message */
     margin-bottom: 15px;
 }
+
+/*koupit*/
+body.koupit {
+    background-color: #fffbc2;
+    color: #f8f9fa;
+}
+
+/*car cards*/
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #ffde8d;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.card-cash-price {
+    font-size: 1rem;
+    color: #ffde8d;
+    text-decoration: line-through;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
