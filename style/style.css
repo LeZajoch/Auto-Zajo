@@ -37,10 +37,7 @@
 }
 
 /*login page*/
-body.loginPage {
-    background-color: #fffbc2;
-    color: #f8f9fa;
-}
+
 .form-container {
     max-width: 400px;
     margin: 50px auto;
@@ -61,38 +58,52 @@ body.loginPage {
     margin-bottom: 15px;
 }
 
-/*koupit*/
-body.koupit {
-    background-color: #fffbc2;
-    color: #f8f9fa;
-}
-
 /*car cards*/
 .card-title {
     font-size: 1rem;
     font-weight: bold;
     color: #333;
 }
-
 .card-text {
     font-size: 0.9rem;
     color: #ffde8d;
 }
-
 .card-price {
     font-size: 1.2rem;
     font-weight: bold;
     color: #000;
 }
-
 .card-cash-price {
     font-size: 1rem;
     color: #ffde8d;
     text-decoration: line-through;
 }
-
 .card-img-top {
     height: 200px;
     object-fit: cover;
 }
+.deal{
+    background-color: #ff0000;
+    color: #f8f9fa;
+}
+body{
+    background-color: #fffbc2;
+    color: #f8f9fa;
+}
+.car-info {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.table th, .table td {
+    width: 50%;
+}
 
+.table-1 th, .table-1 td {
+    width: 50%;
+}
+
+.table-2 th, .table-2 td {
+    width: 50%;
+}

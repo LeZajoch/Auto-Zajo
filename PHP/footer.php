@@ -1,13 +1,13 @@
 <footer class="bg-dark text-white pt-5 pb-4" id="contact">
     <div class="container">
         <div class="row d-flex align-items-start">
-            <div class="col-md-3 col-lg-3 col-xl-3 text-left">
+            <div class="col-md-4 col-lg-4 col-xl-4 text-left">
                 <h5 class="text-uppercase mb-4 text-warning">Auto Zajo</h5>
                 <p class="text-white">Hrušky 33, Hrušky</p>
                 <p class="text-white">683 52, Vyškov</p>
                 <p class="text-white">49.1293500N, 16.8355992E</p>
             </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 text-left">
+            <div class="col-md-4 col-lg-4 col-xl-4 text-left">
                 <h5 class="text-uppercase mb-4 text-warning">Kontakty</h5>
                 <p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">

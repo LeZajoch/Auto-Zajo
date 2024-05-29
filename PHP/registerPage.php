@@ -9,26 +9,37 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
+<body class="registerPage">
 <!--navbar -->
 <?php
 include 'navbar.php';
 ?>
 
-<body>
-<h2>Registrace</h2>
-<form action="register.php" method="post">
-    <?php if(isset($_GET['error'])) { ?>
-        <p class="error"><?php echo $_GET['error']; ?></p>
-    <?php } ?>
-    <label>User Name:
-        <input type="text" name="username" placeholder="User Name" required>
-    </label><br>
-    <label>Password:
-        <input type="password" name="password" placeholder="Password" required>
-    </label><br>
-    <button type="submit" name="register">Registrace</button>
-</form>
+<!--main content-->
+<div class="container">
+    <div class="form-container bg-dark text-warning">
+        <h2 class="text-center text-warning">Registrace</h2>
+        <form action="register.php" method="post">
+            <?php if(isset($_GET['error'])) { ?>
+                <div class="alert alert-danger" role="alert">
+                    <?php echo $_GET['error']; ?>
+                </div>
+            <?php } ?>
+            <div class="mb-3">
+                <label for="username" class="form-label">User Name</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="User Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-warning" name="register">Registrace</button>
+                <button type="button" class="btn" style="background-color: #fffa9d !important;" name="login" onclick="window.location.href='../php/loginPage.php'">Přihlášení</button>
+            </div>
+        </form>
+    </div>
+</div>
 <!--footer-->
 <?php
 include 'footer.php';

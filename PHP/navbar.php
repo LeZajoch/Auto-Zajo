@@ -1,7 +1,7 @@
 <nav class="nav nav-tabs justify-content-center navbar bg-dark">
     <div class="container">
         <a class="navbar-brand text-uppercase text-warning"  href="index.php">
-            <img src="../img/logo.png" alt="Bootstrap" width="60" height="48" >
+            <img src="../img/logo.png" alt="logo" width="60" height="48" >
             Auto Zajo
         </a>
         <div class=" gap-2  justify-content-md-end">

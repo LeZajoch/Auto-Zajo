@@ -18,21 +18,25 @@ include 'navbar.php';
 <div class="container my-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-            <div class="card h-100">
-                <img src="../img/cars/Ford Focus 2L TDCi/335304428-1.jpg" class="card-img-top" alt="ford Focus">
+            <div class="card h-100 rounded-3">
+                <a href="car1.php">
+                    <img src="../img/cars/Ford Focus 2L TDCi/335304428-1.jpg" class="card-img-top" alt="ford Focus">
+                </a>
                 <div class="card-body bg-dark rounded-bottom">
                     <h5 class="card-title fw-bold text-warning">Ford Focus 2.0 TDCi</h5>
                     <p class="card-text">2016 | 248 480 km</p>
                     <p class="card-cash-price">159 999 Kč</p>
                     <p class="card-price-text text-warning d-inline">Cena: </p>
                     <p class="card-price text-warning d-inline">119 999 Kč</p>
-                    <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
+                    <a href="car1.php" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
+                <a href="car2.php">
                 <img src="../img/cars/Ford Kuga 1.5EB/387303633-1.jpg" class="card-img-top rounded-top" alt="Ford Kuga">
+                </a>
                 <div class="card-body bg-dark rounded-bottom">
                     <h5 class="card-title fw-bold text-warning">Ford Kuga 1.5 EB</h5>
                     <p class="card-text">2015 | 99 983 km</p>
@@ -45,7 +49,9 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
+                <a href="car3.php">
                 <img src="../img/cars/Škoda Octavia III 2.0TDi RS/836301579-1.jpg" class="card-img-top rounded-top" alt="Skoda Octavia VRS">
+                </a>
                 <div class="card-body bg-dark rounded-bottom">
                     <h5 class="card-title fw-bold text-warning">Škoda Octavia III 2.0TDi RS</h5>
                     <p class="card-text">2018 | 169 600 km</p>
@@ -60,7 +66,9 @@ include 'navbar.php';
 
         <div class="col">
             <div class="card h-100 rounded-3">
+                <a href="car4.php">
                 <img src="../img/cars/Hyundai Tucson 2.0CRDi 4x4/625305157-1.jpg" class="card-img-top rounded-top" alt="Hyundai Tuscon">
+                </a>
                 <div class="card-body bg-dark rounded-bottom">
                     <h5 class="card-title fw-bold text-warning">Hyundai Tucson 2.0CRDi 4x4</h5>
                     <p class="card-text">2016 | 70 522 km</p>
@@ -72,8 +80,10 @@ include 'navbar.php';
             </div>
         </div>
         <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 rounded-3">
+                <a href="car5.php">
                 <img src="../img/cars/Audi A6 2.0 TDi/910303985-1.jpg" class="card-img-top" alt="Audi A6">
+                </a>
                 <div class="card-body bg-dark rounded-bottom">
                     <h5 class="card-title fw-bold text-warning">Audi A6 2.0 TDI</h5>
                     <p class="card-text">2011 | 161 756 km</p>
@@ -86,7 +96,9 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
+                <a href="car6.php">
                 <img src="../img/cars/Citroën Jumper 2.0HDi L2H2/358269732-1.jpg" class="card-img-top rounded-top" alt="Citroën Jumper 2.0HDi L2H2">
+                </a>
                 <div class="card-body bg-dark rounded-bottom">
                     <h5 class="card-title fw-bold text-warning">Citroën Jumper 2.0HDi L2H2</h5>
                     <p class="card-text">2018 | 169 600 km</p>
@@ -97,12 +109,6 @@ include 'navbar.php';
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </div>
 </div>
 

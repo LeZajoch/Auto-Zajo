@@ -50,7 +50,7 @@ include 'navbar.php';
     <div class="container my-5">
         <div class="text-center mb-5">
             <h2 class="text-warning">Hodnocení zákazníků</h2>
-            <h6>Není pro nás nic důležitějšího než spokojení zákazníci</h6>
+            <h6 class="text-black">Není pro nás nic důležitějšího než spokojení zákazníci</h6>
         </div>
         <div class="row">
             <div id="carouselReviews" class="carousel slide" data-bs-ride="carousel">
