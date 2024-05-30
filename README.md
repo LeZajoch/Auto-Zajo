@@ -9,6 +9,7 @@ Welcome to Auto Zajo, your one-stop destination for browsing and purchasing cars
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Future Plans](#future-plans)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -52,6 +53,11 @@ To run Auto Zajo locally, you'll need XAMPP installed. Follow these steps:
 
 Once Auto Zajo is running, you can start exploring the cars available for sale. 
 If you find a car you like, view its details.
+
+## Future Plans
+
+In the future, i plan to deploy Auto Zajo using Docker to ensure consistent environments across different platforms and simplify the deployment process. 
+This will make it easier to run and scale the application in production.
 
 ## Contributing
 
