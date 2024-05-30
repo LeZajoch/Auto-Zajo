@@ -19,7 +19,7 @@ include 'navbar.php';
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car1.php">
+                <a href="car1">
                     <img src="../img/cars/Ford Focus 2L TDCi/335304428-1.jpg" class="card-img-top" alt="ford Focus">
                 </a>
                 <div class="card-body bg-dark rounded-bottom">
@@ -34,7 +34,7 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car2.php">
+                <a href="car2">
                 <img src="../img/cars/Ford Kuga 1.5EB/387303633-1.jpg" class="card-img-top rounded-top" alt="Ford Kuga">
                 </a>
                 <div class="card-body bg-dark rounded-bottom">
@@ -49,7 +49,7 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car3.php">
+                <a href="car3">
                 <img src="../img/cars/Škoda Octavia III 2.0TDi RS/836301579-1.jpg" class="card-img-top rounded-top" alt="Skoda Octavia VRS">
                 </a>
                 <div class="card-body bg-dark rounded-bottom">
@@ -66,7 +66,7 @@ include 'navbar.php';
 
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car4.php">
+                <a href="car4">
                 <img src="../img/cars/Hyundai Tucson 2.0CRDi 4x4/625305157-1.jpg" class="card-img-top rounded-top" alt="Hyundai Tuscon">
                 </a>
                 <div class="card-body bg-dark rounded-bottom">
@@ -81,7 +81,7 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car5.php">
+                <a href="car5">
                 <img src="../img/cars/Audi A6 2.0 TDi/910303985-1.jpg" class="card-img-top" alt="Audi A6">
                 </a>
                 <div class="card-body bg-dark rounded-bottom">
@@ -96,7 +96,7 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car6.php">
+                <a href="car6">
                 <img src="../img/cars/Citroën Jumper 2.0HDi L2H2/358269732-1.jpg" class="card-img-top rounded-top" alt="Citroën Jumper 2.0HDi L2H2">
                 </a>
                 <div class="card-body bg-dark rounded-bottom">

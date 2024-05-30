@@ -25,7 +25,8 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
         if (sqlsrv_fetch_array($stmt_check, SQLSRV_FETCH_ASSOC)) {
             // Username already exists
-            header("Location: registerPage.html?error=Username already exists.");
+            $_SESSION['error_message'] = 'Username already exists.';
+            header("Location: registerPage");
         } else {
             // Insert the new user
             $sql_insert = "INSERT INTO Users (Username, Password) VALUES (?, ?)";
@@ -37,7 +38,8 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
                 die(print_r(sqlsrv_errors(), true));
             }
 
-            header("Location: index.html?success=Registration successful. Please log in.");
+            $_SESSION['success_message'] = 'Registration successful. Please log in.';
+            header("Location: registerPage");
         }
 
         sqlsrv_free_stmt($stmt_check);

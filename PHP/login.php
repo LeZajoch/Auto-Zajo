@@ -27,9 +27,10 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
         if ($user && password_verify($passwordForm, $user['Password'])) {
             $_SESSION['user'] = $user['Username'];
-            header("Location: index.php");
+            header("Location: index");
         } else {
-           header("Location: loginPage.php?error=Invalid username or password.");
+            $_SESSION['error_message'] = 'Invalid username or password.';
+           header("Location: loginPage");
         }
 
         sqlsrv_free_stmt($stmt);

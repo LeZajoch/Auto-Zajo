@@ -20,11 +20,15 @@ include 'navbar.php';
     <div class="form-container bg-dark text-warning">
         <h2 class="text-center text-warning">Přihlášení</h2>
         <form action="login.php" method="post">
-            <?php if(isset($_GET['error'])) { ?>
-                <div class="alert alert-danger" role="alert">
-                    <?php echo $_GET['error']; ?>
-                </div>
-            <?php } ?>
+            <?php
+            session_start();
+            if (isset($_SESSION['error_message'])) {
+                echo '<div class="alert alert-danger" role="alert">';
+                echo $_SESSION['error_message'];
+                echo '</div>';
+                unset($_SESSION['error_message']);
+            }
+            ?>
             <div class="mb-3">
                 <label for="username" class="form-label">User Name</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="User Name" required>

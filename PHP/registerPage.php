@@ -7,7 +7,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="../img/logo.ico"/>
     <link rel="stylesheet" href="../style/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body class="registerPage">
 <!--navbar -->
@@ -20,11 +19,21 @@ include 'navbar.php';
     <div class="form-container bg-dark text-warning">
         <h2 class="text-center text-warning">Registrace</h2>
         <form action="register.php" method="post">
-            <?php if(isset($_GET['error'])) { ?>
-                <div class="alert alert-danger" role="alert">
-                    <?php echo $_GET['error']; ?>
-                </div>
-            <?php } ?>
+            <?php
+            session_start();
+            if (isset($_SESSION['error_message'])) {
+                echo '<div class="alert alert-danger" role="alert">';
+                echo $_SESSION['error_message'];
+                echo '</div>';
+                unset($_SESSION['error_message']);
+            }
+            if (isset($_SESSION['success_message'])) {
+                echo '<div class="alert alert-warning" role="alert">';
+                echo $_SESSION['success_message'];
+                echo '</div>';
+                unset($_SESSION['success_message']);
+            }
+            ?>
             <div class="mb-3">
                 <label for="username" class="form-label">User Name</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="User Name" required>

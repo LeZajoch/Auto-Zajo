@@ -19,17 +19,17 @@ include 'navbar.php';
 <div class="container my-5">
     <div class="row">
         <div class="car-info col-md-8 bg-dark text-warning">
-            <h1 class="bg-dark">Ford Kuga 1.5EB</h1>
+            <h1 class="bg-dark">Audi A6 2.0 TDi</h1>
             <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-2.jpg?1716062233" class="d-block w-100" alt="Car Image 1">
+                        <img src="https://www.autoesa.cz/files/cars/910303985/950_713_e/910303985-2.jpg?1715588483" class="d-block w-100" alt="Car Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-3.jpg?1716062233" class="d-block w-100" alt="Car Image 2">
+                        <img src="https://www.autoesa.cz/files/cars/910303985/950_713_e/910303985-3.jpg?1715588483" class="d-block w-100" alt="Car Image 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-4.jpg?1716062233" class="d-block w-100" alt="Car Image 3">
+                        <img src="https://www.autoesa.cz/files/cars/910303985/950_713_e/910303985-4.jpg?1715588483" class="d-block w-100" alt="Car Image 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
@@ -46,35 +46,35 @@ include 'navbar.php';
                 <table class="table table-1">
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Výrobce</th>
-                        <td class="text-white" style="background-color: #353940 !important;">Ford</td>
+                        <td class="text-white" style="background-color: #353940 !important;">Audi </td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Model</th>
-                        <td class="text-white" style="background-color: #353940 !important;">Kuga</td>
+                        <td class="text-white" style="background-color: #353940 !important;">A6</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Ročník</th>
-                        <td class="text-white" style="background-color: #353940 !important;">2015</td>
+                        <td class="text-white" style="background-color: #353940 !important;">2011</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Stav tachometru</th>
-                        <td class="text-white" style="background-color: #353940 !important;">149,922 km</td>
+                        <td class="text-white" style="background-color: #353940 !important;">161 756 km</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Palivo</th>
-                        <td class="text-white" style="background-color: #353940 !important;">Benzín</td>
+                        <td class="text-white" style="background-color: #353940 !important;">nafta</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Zdvihový objem</th>
-                        <td class="text-white" style="background-color: #353940 !important;">1,498 ccm</td>
+                        <td class="text-white" style="background-color: #353940 !important;">2,000 ccm</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Výkon</th>
-                        <td class="text-white" style="background-color: #353940 !important;">110 kW (150 PS)</td>
+                        <td class="text-white" style="background-color: #353940 !important;">130  kW (150 PS)</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Barva</th>
-                        <td class="text-white" style="background-color: #353940 !important;">červená</td>
+                        <td class="text-white" style="background-color: #353940 !important;">černá</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">VIN</th>
@@ -107,6 +107,7 @@ include 'navbar.php';
             </div>
         </div>
         <div class="col-md-4">
+
 
             <div class="container">
                 <div class="row">

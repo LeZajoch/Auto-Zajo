@@ -90,6 +90,9 @@ body{
     background-color: #fffbc2;
     color: #f8f9fa;
 }
+
+
+/*car specific*/
 .car-info {
     background-color: #f8f9fa;
     color: black;
@@ -106,4 +109,26 @@ body{
 
 .table-2 th, .table-2 td {
     width: 50%;
+}
+.pricing-box {
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.pricing-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.pricing-box p {
+    margin: 0.5rem 0;
+}
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff86c;
+}
+.price-note {
+    font-size: 0.9rem;
+    color: #6c757d;
 }

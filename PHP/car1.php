@@ -15,40 +15,120 @@
 include 'navbar.php';
 ?>
 <!--main content-->
-
-<div class="container mt-5">
+<div class="container my-5">
     <div class="row">
-        <div class="col-lg-4">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="car-info col-md-8 bg-dark text-warning">
+            <h1 class="bg-dark">Ford Focus 2.0 TDCi</h1>
+            <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://www.autoesa.cz/files/cars/335304428/950_713_e/335304428-2.jpg?1717003316" class="d-block w-100" alt="Car 1">
+                        <img src="https://www.autoesa.cz/files/cars/335304428/950_713_e/335304428-2.jpg?1717093489" class="d-block w-100" alt="Car Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/335304428/950_713_e/335304428-3.jpg?1717003316" class="d-block w-100" alt="Car 2">
+                        <img src="https://www.autoesa.cz/files/cars/335304428/950_713_e/335304428-3.jpg?1717093489" class="d-block w-100" alt="Car Image 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/335304428/950_713_e/335304428-4.jpg?1717003316" class="d-block w-100" alt="Car 3">
+                        <img src="https://www.autoesa.cz/files/cars/335304428/950_713_e/335304428-4.jpg?1717093489" class="d-block w-100" alt="Car Image 3">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div class="car-info mt-3" style="background-color: #272b30 !important;">
+                <h2 class="text-warning">Popis Vozu</h2>
+                <table class="table table-1">
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Výrobce</th>
+                        <td class="text-white" style="background-color: #353940 !important;">Ford</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Model</th>
+                        <td class="text-white" style="background-color: #353940 !important;">Focus</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Ročník</th>
+                        <td class="text-white" style="background-color: #353940 !important;">2016</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Stav tachometru</th>
+                        <td class="text-white" style="background-color: #353940 !important;">248 480 km</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Palivo</th>
+                        <td class="text-white" style="background-color: #353940 !important;">nafta</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Zdvihový objem</th>
+                        <td class="text-white" style="background-color: #353940 !important;">2,000 ccm</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Výkon</th>
+                        <td class="text-white" style="background-color: #353940 !important;">110 kW (150 PS)</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Barva</th>
+                        <td class="text-white" style="background-color: #353940 !important;">černá</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">VIN</th>
+                        <td class="text-white" style="background-color: #353940 !important;">WVZZZ3CZLE0*****</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Emisní norma</th>
+                        <td class="text-white" style="background-color: #353940 !important;">EURO VI</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Hmotnost</th>
+                        <td class="text-white" style="background-color: #353940 !important;">2,050 kg</td>
+                    </tr>
+                </table>
+                <h3 class="text-warning">Rozměry</h3>
+                <table class="table table-2">
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Délka vozu</th>
+                        <td class="text-white" style="background-color: #353940 !important;">4,889 mm</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Šířka vozu</th>
+                        <td class="text-white" style="background-color: #353940 !important;">1,832 mm</td>
+                    </tr>
+                    <tr>
+                        <th class="text-warning" style="background-color: #2f3339 !important;">Výška vozu</th>
+                        <td class="text-white" style="background-color: #353940 !important;">1,516 mm</td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="col-lg-8">
-            <h1>Car Name</h1>
-            <p>Car Description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada faucibus ex nec ultricies. Donec mattis egestas nisi non pretium.</p>
+        <div class="col-md-4">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="pricing-box bg-dark">
+                            <h2 class="text-warning">AKČNÍ CENA</h2>
+                            <p class="price">119 999 Kč</p>
+                            <p class="price-note">Cena platí u při operativním leasingu.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="pricing-box bg-dark">
+                            <h2 class="text-warning">CENA V HOTOVOSTI</h2>
+                            <p class="price">159 999 Kč</p>
+                            <p class="price-note">Cena bez DPH činí 126 399 Kč</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-
 <!--footer-->
 <?php
 include 'footer.php';

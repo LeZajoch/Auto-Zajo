@@ -20,54 +20,54 @@ include 'navbar.php';
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car1.php">
-                    <img src="../img/cars/Ford Focus 2L TDCi/335304428-1.jpg" class="card-img-top" alt="ford Focus">
+                <a href="carDeal1">
+                    <img src="https://www.autoesa.cz/files/cars/177296610/950_713_e/177296610-1.jpg?1715778492" class="card-img-top" alt="ford Focus">
                 </a>
                 <div class="deal fw-bold text-uppercase text-center">
                     AKČNÍ NABÍDKA
                 </div>
                 <div class="card-body bg-dark rounded-bottom">
-                    <h5 class="card-title fw-bold text-warning">Ford Focus 2.0 TDCi</h5>
-                    <p class="card-text">2016 | 248 480 km</p>
-                    <p class="card-cash-price">159 999 Kč</p>
+                    <h5 class="card-title fw-bold text-warning">Peugeot 2008 1.2 PT Active</h5>
+                    <p class="card-text">2020 | 58 463 km</p>
+                    <p class="card-cash-price">439 999 Kč</p>
                     <p class="card-price-text text-warning d-inline">Cena: </p>
-                    <p class="card-price text-warning d-inline">119 999 Kč</p>
+                    <p class="card-price text-warning d-inline">379 999 Kč</p>
                     <a href="car1.php" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car2.php">
-                    <img src="../img/cars/Ford Kuga 1.5EB/387303633-1.jpg" class="card-img-top rounded-top" alt="Ford Kuga">
+                <a href="carDeal2">
+                    <img src="https://www.autoesa.cz/files/cars/846287579/950_713_e/846287579-1.jpg?1711648852" class="card-img-top rounded-top" alt="Ford Kuga">
                 </a>
                 <div class="deal fw-bold text-uppercase text-center">
                     AKČNÍ NABÍDKA
                 </div>
                 <div class="card-body bg-dark rounded-bottom">
-                    <h5 class="card-title fw-bold text-warning">Ford Kuga 1.5 EB</h5>
-                    <p class="card-text">2015 | 99 983 km</p>
-                    <p class="card-cash-price">299 999 Kč</p>
+                    <h5 class="card-title fw-bold text-warning">Renault Mégane 1.2TCe Limited</h5>
+                    <p class="card-text">2016 | 124 377 km</p>
+                    <p class="card-cash-price">199 999 Kč</p>
                     <p class="card-price-text text-warning d-inline">Cena: </p>
-                    <p class="card-price text-warning d-inline">249 999 Kč</p>
+                    <p class="card-price text-warning d-inline">115 999 Kč</p>
                     <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car3.php">
-                    <img src="../img/cars/Škoda Octavia III 2.0TDi RS/836301579-1.jpg" class="card-img-top rounded-top" alt="Skoda Octavia VRS">
+                <a href="carDeal3">
+                    <img src="https://www.autoesa.cz/files/cars/921301086/950_713_e/921301086-1.jpg?1717089690" class="card-img-top rounded-top" alt="Skoda Octavia VRS">
                 </a>
                 <div class="deal fw-bold text-uppercase text-center">
                     AKČNÍ NABÍDKA
                 </div>
                 <div class="card-body bg-dark rounded-bottom">
-                    <h5 class="card-title fw-bold text-warning">Škoda Octavia III 2.0TDi RS</h5>
-                    <p class="card-text">2018 | 169 600 km</p>
-                    <p class="card-cash-price">439 999 Kč</p>
+                    <h5 class="card-title fw-bold text-warning">Škoda Octavia II 1.6 MPi Ambiente</h5>
+                    <p class="card-text">2011 | 175 601 km</p>
+                    <p class="card-cash-price">149 999 Kč</p>
                     <p class="card-price-text text-warning d-inline">Cena: </p>
-                    <p class="card-price text-warning d-inline">389 999 Kč</p>
+                    <p class="card-price text-warning d-inline">115 999 Kč</p>
                     <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
                 </div>
             </div>
@@ -76,16 +76,34 @@ include 'navbar.php';
 
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car4.php">
-                    <img src="../img/cars/Hyundai Tucson 2.0CRDi 4x4/625305157-1.jpg" class="card-img-top rounded-top" alt="Hyundai Tuscon">
+                <a href="carDeal4">
+                    <img src="https://www.autoesa.cz/files/cars/988279796/950_713_e/988279796-1.jpg?1711645959" class="card-img-top rounded-top" alt="Hyundai Tuscon">
                 </a>
                 <div class="deal fw-bold text-uppercase text-center">
                     AKČNÍ NABÍDKA
                 </div>
                 <div class="card-body bg-dark rounded-bottom">
-                    <h5 class="card-title fw-bold text-warning">Hyundai Tucson 2.0CRDi 4x4</h5>
-                    <p class="card-text">2016 | 70 522 km</p>
-                    <p class="card-cash-price">439 999 Kč</p>
+                    <h5 class="card-title fw-bold text-warning">Peugeot 3008 1.6HDi</h5>
+                    <p class="card-text">2016 | 78 374 km</p>
+                    <p class="card-cash-price">294 999 Kč</p>
+                    <p class="card-price-text text-warning d-inline">Cena: </p>
+                    <p class="card-price text-warning d-inline">193 999 Kč</p>
+                    <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 rounded-3">
+                <a href="carDeal5">
+                    <img src="https://www.autoesa.cz/files/cars/784299297/950_713_e/784299297-1.jpg?1711098328" class="card-img-top" alt="Audi A6">
+                </a>
+                <div class="deal fw-bold text-uppercase text-center">
+                    AKČNÍ NABÍDKA
+                </div>
+                <div class="card-body bg-dark rounded-bottom">
+                    <h5 class="card-title fw-bold text-warning">BMW Řada 5 3.0d M Paket 530d xDrive</h5>
+                    <p class="card-text">2011 | 194 927 km</p>
+                    <p class="card-cash-price">464 999 Kč</p>
                     <p class="card-price-text text-warning d-inline">Cena: </p>
                     <p class="card-price text-warning d-inline">389 999 Kč</p>
                     <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
@@ -94,36 +112,18 @@ include 'navbar.php';
         </div>
         <div class="col">
             <div class="card h-100 rounded-3">
-                <a href="car5.php">
-                    <img src="../img/cars/Audi A6 2.0 TDi/910303985-1.jpg" class="card-img-top" alt="Audi A6">
+                <a href="carDeal6">
+                    <img src="https://www.autoesa.cz/files/cars/738283770/950_713_e/738283770-1.jpg?1711647047" class="card-img-top rounded-top" alt="Citroën Jumper 2.0HDi L2H2">
                 </a>
                 <div class="deal fw-bold text-uppercase text-center">
                     AKČNÍ NABÍDKA
                 </div>
                 <div class="card-body bg-dark rounded-bottom">
-                    <h5 class="card-title fw-bold text-warning">Audi A6 2.0 TDI</h5>
-                    <p class="card-text">2011 | 161 756 km</p>
-                    <p class="card-cash-price">299 999 Kč</p>
+                    <h5 class="card-title fw-bold text-warning">Audi A3 1.4 TFSi Ambition Sportback</h5>
+                    <p class="card-text">2013 | 142 142 km</p>
+                    <p class="card-cash-price">309 999 Kč</p>
                     <p class="card-price-text text-warning d-inline">Cena: </p>
-                    <p class="card-price text-warning d-inline">249 999 Kč</p>
-                    <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 rounded-3">
-                <a href="car6.php">
-                    <img src="../img/cars/Citroën Jumper 2.0HDi L2H2/358269732-1.jpg" class="card-img-top rounded-top" alt="Citroën Jumper 2.0HDi L2H2">
-                </a>
-                <div class="deal fw-bold text-uppercase text-center">
-                    AKČNÍ NABÍDKA
-                </div>
-                <div class="card-body bg-dark rounded-bottom">
-                    <h5 class="card-title fw-bold text-warning">Citroën Jumper 2.0HDi L2H2</h5>
-                    <p class="card-text">2018 | 169 600 km</p>
-                    <p class="card-cash-price">359 999 Kč</p>
-                    <p class="card-price-text text-warning d-inline">Cena: </p>
-                    <p class="card-price text-warning d-inline">214 999 Kč</p>
+                    <p class="card-price text-warning d-inline">203 999 Kč</p>
                     <a href="#" class="btn btn-warning w-100 mt-3">Zobrazit vůz</a>
                 </div>
             </div>

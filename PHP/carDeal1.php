@@ -19,18 +19,21 @@ include 'navbar.php';
 <div class="container my-5">
     <div class="row">
         <div class="car-info col-md-8 bg-dark text-warning">
-            <h1 class="bg-dark">Ford Kuga 1.5EB</h1>
+            <h1 class="bg-dark">Peugeot 2008 1.2 PT Active</h1>
             <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-2.jpg?1716062233" class="d-block w-100" alt="Car Image 1">
+                        <img src="https://www.autoesa.cz/files/cars/177296610/950_713_e/177296610-2.jpg?1715778492" class="d-block w-100" alt="Car Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-3.jpg?1716062233" class="d-block w-100" alt="Car Image 2">
+                        <img src="https://www.autoesa.cz/files/cars/177296610/950_713_e/177296610-3.jpg?1715778492" class="d-block w-100" alt="Car Image 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-4.jpg?1716062233" class="d-block w-100" alt="Car Image 3">
+                        <img src="https://www.autoesa.cz/files/cars/177296610/950_713_e/177296610-4.jpg?1715778492" class="d-block w-100" alt="Car Image 3">
                     </div>
+                </div>
+                <div class="deal fw-bold text-uppercase text-center">
+                    AKČNÍ NABÍDKA
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -46,19 +49,19 @@ include 'navbar.php';
                 <table class="table table-1">
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Výrobce</th>
-                        <td class="text-white" style="background-color: #353940 !important;">Ford</td>
+                        <td class="text-white" style="background-color: #353940 !important;">Peugeot</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Model</th>
-                        <td class="text-white" style="background-color: #353940 !important;">Kuga</td>
+                        <td class="text-white" style="background-color: #353940 !important;">2008</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Ročník</th>
-                        <td class="text-white" style="background-color: #353940 !important;">2015</td>
+                        <td class="text-white" style="background-color: #353940 !important;">2020</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Stav tachometru</th>
-                        <td class="text-white" style="background-color: #353940 !important;">149,922 km</td>
+                        <td class="text-white" style="background-color: #353940 !important;">58 463 km</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Palivo</th>
@@ -66,15 +69,15 @@ include 'navbar.php';
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Zdvihový objem</th>
-                        <td class="text-white" style="background-color: #353940 !important;">1,498 ccm</td>
+                        <td class="text-white" style="background-color: #353940 !important;">1,198 ccm</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Výkon</th>
-                        <td class="text-white" style="background-color: #353940 !important;">110 kW (150 PS)</td>
+                        <td class="text-white" style="background-color: #353940 !important;">96 kW (150 PS)</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">Barva</th>
-                        <td class="text-white" style="background-color: #353940 !important;">červená</td>
+                        <td class="text-white" style="background-color: #353940 !important;">oranžová</td>
                     </tr>
                     <tr>
                         <th class="text-warning" style="background-color: #2f3339 !important;">VIN</th>
@@ -108,20 +111,21 @@ include 'navbar.php';
         </div>
         <div class="col-md-4">
 
+
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="pricing-box bg-dark">
                             <h2 class="text-warning">AKČNÍ CENA</h2>
-                            <p class="price">249 999 Kč</p>
+                            <p class="price">349  999 Kč</p>
                             <p class="price-note">Cena platí u při operativním leasingu.</p>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="pricing-box bg-dark">
                             <h2 class="text-warning">CENA V HOTOVOSTI</h2>
-                            <p class="price">299 999 Kč</p>
-                            <p class="price-note">Cena bez DPH činí 236 999 Kč</p>
+                            <p class="price">379 999 Kč</p>
+                            <p class="price-note">Cena bez DPH činí 300 199 Kč</p>
                         </div>
                     </div>
                 </div>
