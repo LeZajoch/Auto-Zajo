@@ -23,13 +23,13 @@ include 'navbar.php';
             <div id="carCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-2.jpg?1716062233" class="d-block w-100" alt="Car Image 1">
+                        <img src="https://www.autoesa.cz/files/cars/383303633/950_713_e/383303633-2.jpg?1717409858" class="d-block w-100" alt="Car Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-3.jpg?1716062233" class="d-block w-100" alt="Car Image 2">
+                        <img src="https://www.autoesa.cz/files/cars/383303633/950_713_e/383303633-3.jpg?1717409858" class="d-block w-100" alt="Car Image 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.autoesa.cz/files/cars/387303633/950_713_e/387303633-4.jpg?1716062233" class="d-block w-100" alt="Car Image 3">
+                        <img src="https://www.autoesa.cz/files/cars/383303633/950_713_e/383303633-4.jpg?1717409858" class="d-block w-100" alt="Car Image 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
